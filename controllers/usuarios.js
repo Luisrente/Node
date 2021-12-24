@@ -11,7 +11,7 @@ const usuariosGet=(req=request, res=response) =>{
     });
   }
 
-  const usuariosPost=(req, res=response) =>{
+ const usuariosPost=(req, res=response) =>{
     const body= req.body;
     res.json({
           msg:'Post API-controlador' ,
@@ -19,7 +19,7 @@ const usuariosGet=(req=request, res=response) =>{
         });
     }
 
-    const usuariosPut=(req, res=response) =>{
+ const usuariosPut=(req, res=response) =>{
         const id=req.params.id;
         res.json({
          msg:'Puwt API-controlador' ,
